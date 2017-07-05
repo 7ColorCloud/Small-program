@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76DD870B-3E5F-4C02-B1C7-6A1689FE3D45}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\name\app.js = ..\..\..\..\name\app.js
+		..\..\..\..\name\app.json = ..\..\..\..\name\app.json
+		..\..\..\..\name\app.wxss = ..\..\..\..\name\app.wxss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utils", "utils", "{3CEC8166-EF0C-4A23-AF34-EE9816407F30}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\name\utils\util.js = ..\..\..\..\name\utils\util.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{A342B515-50F0-4058-8E0B-418D15724EA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "index", "index", "{36B3EA1B-A2F3-4A7A-B531-39AA45E42D68}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\name\pages\index\index.js = ..\..\..\..\name\pages\index\index.js
+		..\..\..\..\name\pages\index\index.json = ..\..\..\..\name\pages\index\index.json
+		..\..\..\..\name\pages\index\index.wxml = ..\..\..\..\name\pages\index\index.wxml
+		..\..\..\..\name\pages\index\index.wxss = ..\..\..\..\name\pages\index\index.wxss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "logs", "logs", "{2380FB9A-C878-4F69-9D2E-4EBEE32D34E1}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\pages\logs\logs.js = Solution Items\pages\logs\logs.js
+		Solution Items\pages\logs\logs.json = Solution Items\pages\logs\logs.json
+		Solution Items\pages\logs\logs.wxml = Solution Items\pages\logs\logs.wxml
+		Solution Items\pages\logs\logs.wxss = Solution Items\pages\logs\logs.wxss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{FFDFDDA2-0576-4842-A9C6-971A95612A3A}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\image\logo.jpg = Solution Items\image\logo.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CEC8166-EF0C-4A23-AF34-EE9816407F30} = {76DD870B-3E5F-4C02-B1C7-6A1689FE3D45}
+		{A342B515-50F0-4058-8E0B-418D15724EA9} = {76DD870B-3E5F-4C02-B1C7-6A1689FE3D45}
+		{36B3EA1B-A2F3-4A7A-B531-39AA45E42D68} = {A342B515-50F0-4058-8E0B-418D15724EA9}
+		{2380FB9A-C878-4F69-9D2E-4EBEE32D34E1} = {A342B515-50F0-4058-8E0B-418D15724EA9}
+		{FFDFDDA2-0576-4842-A9C6-971A95612A3A} = {76DD870B-3E5F-4C02-B1C7-6A1689FE3D45}
+	EndGlobalSection
+EndGlobal
